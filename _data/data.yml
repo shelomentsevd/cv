@@ -83,17 +83,17 @@ profile:
   order: 1
   title: Profile
   description: |
-I have been in IT for 10 years, with the last five years spent as a backend developer.
+      I have been in IT for 10 years, with the last five years spent as a backend developer.
 
-In my work, I am results-oriented. I advocate for frequent releases because I believe they help identify errors and shortcomings in the product early on, thereby saving money for the business and reducing stress for developers.
+      In my work, I am results-oriented. I advocate for frequent releases because I believe they help identify errors and shortcomings in the product early on, thereby saving money for the business and reducing stress for developers.
 
-I enjoy working in teams. An ideal team for me consists of professionals who are not afraid to acknowledge their weaknesses and are willing to ask for or offer help.
+      I enjoy working in teams. An ideal team for me consists of professionals who are not afraid to acknowledge their weaknesses and are willing to ask for or offer help.
 
-My professional interests include cloud technologies and the development of high-load services. I am also passionate about creating tools to assist other developers.
+      My professional interests include cloud technologies and the development of high-load services. I am also passionate about creating tools to assist other developers.
 
-My motto is "A day is not wasted if I have learned something." I enjoy learning and discovering new things, both within and outside of IT.
+      My motto is "A day is not wasted if I have learned something." I enjoy learning and discovering new things, both within and outside of IT.
 
-In my free time, I entertain myself by creating games using the Godot engine, playing guitar, and hiking in nature. I am also married and have two cats.
+      In my free time, I entertain myself by creating games using the Godot engine, playing guitar, and hiking in nature. I am also married and have two cats.
 
 experience:
   show: true
