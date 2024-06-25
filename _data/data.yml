@@ -102,22 +102,12 @@ experience:
       role: Cloud Native Software Engineer
       location: Tbilisi, Georgia
       description: |
-        + Function as a Service
-
-          Developed and integrated Kubernetes controllers to protect clients' functions from unauthorized access.
-          Added FaaS to G-Core terraform provider.
-          Wrote unit-tests for FaaS REST API.
-          Stack: Golang, Kubernetes, Kubebuilder, Kong, Grafana, Prometheus, Gitlab CI, Terraform
-        + Golang SDK code generation, key developer
-
-          Architected and developed tools for fully automated code generation of SDK from Open API specification.
-          Saved hundreds of man-hours for fellow devs & simplified new product releases. 
-          Wrote roadmap and guidelines for further automation. 
-        + CLI for company products, key developer
-
-          Architected new CLI which meets modern requirements for PaaS CLIs: server autocomplete, authentication by API key, etc
-          Stack: Golang, Cobra
-
+        + Developed Kubernetes operators and controllers for PaaS (Product as a Service) products such as FaaS (Function as a Service) and KaaS (Kubernetes as a Service). Streamlined deployment and management of cloud services.
+        + Expanded the functionality of the company's Terraform provider by integrating new products, enabling automated provisioning and configuration of infrastructure resources.
+        + Led a project over the last six months to create a tool that automates the generation of a Golang SDK from the company's OpenAPI specifications, significantly reducing development time and improving API integration efficiency.
+        + Designed and implemented a modern CLI for PaaS environments, incorporating features like server-side autocomplete and API key-based authentication using Golang and Cobra, enhancing developer productivity and user experience.
+        
+        Tech stack: Go, Python, Kubernetes, Docker, Terraform, Gitlab CI, Grafana, Prometheus, Kong, Kubebuilder, oapi-codegen, cobra
     - company: VK.com (former Mail.ru Group)
       link: 'https://team.vk.company/company/'
       tags: Full-time, hyprid
@@ -128,6 +118,7 @@ experience:
         + Developed high-load microservices (> 10000 RPS) using Golang to agregate users data.
         + Designed and implemented Grafana dashboards for visualizing system metrics, alongside configuring Prometheus alerts to ensure proactive monitoring and rapid response to potential issues within microservices.
         + Contributed to the Tarantool Go library by reverse-engineering and incorporating a new version of the Tarantool protocol, which allowed the aggregation of data from the latest Tarantool releases and expanded the library's functionality.
+        
         Stack: Golang, Lua, C++, Protobuf, Kubernetes, Kafka, Prometheus, Grafana
     - company: Paragon Software
       link: 'https://www.paragon-software.com'
@@ -137,22 +128,23 @@ experience:
       location: Moscow, Russia
       description: |
         + Developed various XML and PDF parsers to process language dictionaries
+        
         Stack: C++, Perl, tiny-xml
 
 project:
-  show: false
+  show: true
   order: 3
   title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+  #description: |
+  #  The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+  #  In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
 
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+  #  The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
     - name: Golang Telegram API library
-      link: '#'
+      link: 'https://github.com/shelomentsevd/mtproto'
       tags: author
       date: 2017 - 2018
       description: |
@@ -219,10 +211,10 @@ education:
   show: true
   order: 5
   title: Education
-  description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
+  #description: |
+  #  The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
 
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
+  #  In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
     - institution: National Research University of Electronic Technology
