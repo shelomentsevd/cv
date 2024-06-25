@@ -118,7 +118,7 @@ experience:
         Tech stack: Go, Python, Kubernetes, Docker, Terraform, Gitlab CI, Grafana, Prometheus, Kong, Kubebuilder, oapi-codegen, cobra
     - company: VK.com (former Mail.ru Group)
       link: 'https://team.vk.company/company/'
-      tags: Full-time, hyprid
+      tags: Full-time, hybrid
       date: October 2018 - July 2021
       role: Software Engineer at Advertisement Tech Department
       location: Moscow, Russia
