@@ -123,7 +123,7 @@ experience:
       role: Software Engineer at Advertisement Tech Department
       location: Moscow, Russia
       description: |
-        + Developed high-load microservices (> 10000 RPS) using Golang to agregate users data.
+        + Developed high-load microservices (> 10000 RPS) using Golang to aggregate users data.
         + Designed and implemented Grafana dashboards for visualizing system metrics, alongside configuring Prometheus alerts to ensure proactive monitoring and rapid response to potential issues within microservices.
         + Contributed to the Tarantool Go library by reverse-engineering and incorporating a new version of the Tarantool protocol, which allowed the aggregation of data from the latest Tarantool releases and expanded the library's functionality.
         
