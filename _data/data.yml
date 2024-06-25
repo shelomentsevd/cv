@@ -103,15 +103,18 @@ experience:
       location: Tbilisi, Georgia
       description: |
         + Function as a Service
+
           Developed and integrated Kubernetes controllers to protect clients' functions from unauthorized access.
           Added FaaS to G-Core terraform provider.
           Wrote unit-tests for FaaS REST API.
           Stack: Golang, Kubernetes, Kubebuilder, Kong, Grafana, Prometheus, Gitlab CI, Terraform
         + Golang SDK code generation, key developer
+
           Architected and developed tools for fully automated code generation of SDK from Open API specification.
           Saved hundreds of man-hours for fellow devs & simplified new product releases. 
           Wrote roadmap and guidelines for further automation. 
         + CLI for company products, key developer
+
           Architected new CLI which meets modern requirements for PaaS CLIs: server autocomplete, authentication by API key, etc
           Stack: Golang, Cobra
 
@@ -148,23 +151,12 @@ project:
     The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Personal project
+    - name: Golang Telegram API library
       link: '#'
-      tags:
-      date: 2015 - 2017
+      tags: author
+      date: 2017 - 2018
       description: |
-        Personal project description...
-        + First
-        + Second
-
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
+        Golang library for work with Telegram clients API
 
 skill:
   show: true
@@ -233,25 +225,15 @@ education:
     In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
+    - institution: National Research University of Electronic Technology
+      link: 'https://eng.miet.ru/'
+      date: 2011 - 2014
+      major: Electrical and Electronics engineering
       degree: Bachelor
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
+      #description: |
+      #  Additional information for this institution.
+      #  + First
+      #  + Second
 
 certificate:
   show: false
@@ -367,10 +349,10 @@ language:
   show: true
   order: 11
   title: Languages
-  description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+  #description: |
+  #  The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
 
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+  #  It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
 
   items:
     - idiom: Russian
@@ -382,17 +364,21 @@ interest:
   show: true
   order: 12
   title: Interests
-  description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
+  #description: |
+  #  The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
 
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
+  #  Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
 
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
+  #  However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
 
   items:
+    - item: Camping
+      link: 
+    - item: Guitar
+      link:
     - item: Reading
-      link: '#'
-    - item: Cooking
+      link:
+    - item: Coding for fun
       link:
 
 evaluation:
