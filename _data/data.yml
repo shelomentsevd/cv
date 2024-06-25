@@ -3,7 +3,7 @@ basic:
   title: Software Engineer           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.jpg # avatar file path
+    path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
@@ -98,7 +98,7 @@ experience:
     - company: G-Core
       link: 'https://gcore.com/'
       tags: Full-time, remote
-      date: 2022.05 - 2024.05
+      date: May 2022 - May 2024
       role: Cloud Native Software Engineer
       location: Tbilisi, Georgia
       description: |
@@ -118,7 +118,7 @@ experience:
     - company: VK.com (former Mail.ru Group)
       link: 'https://team.vk.company/company/'
       tags: Full-time, hyprid
-      date: 2018.10 - 2021.07
+      date: October 2018 - July 2021
       role: Software Engineer at Advertisement Tech Department
       location: Moscow, Russia
       description: |
@@ -129,7 +129,7 @@ experience:
     - company: Paragon Software
       link: 'https://www.paragon-software.com'
       tags: Full-time
-      date: 2014.03 - 2018.09
+      date: March 2014 - September 2018
       role: Software Developer
       location: Moscow, Russia
       description: |
@@ -176,43 +176,48 @@ skill:
   #  When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
   #  There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
 
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+  #items:
+  #  - name: Skill A
+  #    level: 5
+  #  - name: Skill B
+  #    level: 4
+  #  - name: Skill C
+  #    level: 3
+  #  - name: Skill D
+  #    level: 4
+  #  - name: Skill E
+  #    level: 3
+  #  - name: Skill F
+  #    level: 1
+  #  - name: Skill G
+  #    level: 4
+  #  - name: Skill H
+  #    level: 4
+  #  - name: Skill I
+  #    level: 3
 
   groups:
-    - name: Group A Skills
+    - name: Hard skills
       item:
         - Skill A
         - Skill B
         - Skill C
         - Skill D
-    - name: Group B Skills
+    - name: Soft skills
       item:
         - Skill E
         - Skill F
         - Skill G
-    - name: Group C Skills
+    - name: Sub skills
       item:
-        - Skill H
-        - Skill I
-
+        - name: test 
+          item:
+            - Skill H
+            - Skill J
+        - name: test 2 
+          item:
+            - Skill K
+            - Skill L
 education:
   show: true
   order: 4
