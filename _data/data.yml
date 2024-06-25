@@ -83,9 +83,17 @@ profile:
   order: 1
   title: Profile
   description: |
-    "Day wasn't in vain if I've learned something"
+I have been in IT for 10 years, with the last five years spent as a backend developer.
 
-    Eight years of experience in back-end development, with a keen interest in cloud-native technologies. Technical enthusiast.
+In my work, I am results-oriented. I advocate for frequent releases because I believe they help identify errors and shortcomings in the product early on, thereby saving money for the business and reducing stress for developers.
+
+I enjoy working in teams. An ideal team for me consists of professionals who are not afraid to acknowledge their weaknesses and are willing to ask for or offer help.
+
+My professional interests include cloud technologies and the development of high-load services. I am also passionate about creating tools to assist other developers.
+
+My motto is "A day is not wasted if I have learned something." I enjoy learning and discovering new things, both within and outside of IT.
+
+In my free time, I entertain myself by creating games using the Godot engine, playing guitar, and hiking in nature. I am also married and have two cats.
 
 experience:
   show: true
@@ -104,7 +112,7 @@ experience:
       description: |
         + Developed Kubernetes operators and controllers for PaaS (Product as a Service) products such as FaaS (Function as a Service) and KaaS (Kubernetes as a Service). Streamlined deployment and management of cloud services.
         + Expanded the functionality of the company's Terraform provider by integrating new products, enabling automated provisioning and configuration of infrastructure resources.
-        + Led a project over the last six months to create a tool that automates the generation of a Golang SDK from the company's OpenAPI specifications, significantly reducing development time and improving API integration efficiency.
+        + Led a project to create a tool that automates the generation of a Golang SDK from the company's OpenAPI specifications, significantly reducing development time and improving API integration efficiency.
         + Designed and implemented a modern CLI for PaaS environments, incorporating features like server-side autocomplete and API key-based authentication using Golang and Cobra, enhancing developer productivity and user experience.
         
         Tech stack: Go, Python, Kubernetes, Docker, Terraform, Gitlab CI, Grafana, Prometheus, Kong, Kubebuilder, oapi-codegen, cobra
@@ -207,6 +215,7 @@ skill:
         - OpenAPI
         - REST APIs
         - Unit-tests
+        - Linux
 education:
   show: true
   order: 5
