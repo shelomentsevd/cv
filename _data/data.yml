@@ -21,14 +21,14 @@ contact:
   # contact
   #wechat:                  # username
   #whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                https://t.me/shelomentsevd # username          | https://t.me/username
+  telegram:                 shelomentsevd # username          | https://t.me/username
   #messenger:               # username          | https://m.me/username
   #line:                    # lineid            | https://line.me/R/ti/p/@lineid
   #viber:                   # username          | https://vb.me/username
   #threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  https://github.com/shelomentsevd # username          | https://github.com/username
+  github:                  shelomentsevd # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                https://www.linkedin.com/in/d-shelomentsev/ 
+  linkedin:                d-shelomentsev
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
