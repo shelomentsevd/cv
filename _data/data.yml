@@ -83,15 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-      Experienced in IT for a decade, specializing in backend development for the past five years. Emphasizing results, I advocate for frequent releases to swiftly identify and rectify product flaws, thereby optimizing business costs and enhancing team efficiency.
-
-      Valuing collaborative environments, I thrive in teams where professionals openly acknowledge weaknesses and readily offer assistance.
-
-      Passionate about cloud technologies, high-load service development, and creating tools to support fellow developers.
-
-      Adopting the motto "Day wasn't in vain if I've learned something" I pursue continuous learning, exploring diverse interests beyond IT.
-
-      In my leisure time, I enjoy crafting games with the Godot engine, playing guitar, and exploring the outdoors. Married with two cats.
+      Accomplished Software Engineer with over 10 years in IT and 5 years specializing in backend development. Proven track record of optimizing business costs and enhancing team efficiency through frequent releases and proactive problem-solving. Expertise in cloud technologies, high-load service development, and creating developer tools. Passionate about continuous learning and thriving in collaborative environments. In my leisure time, I develop games using the Godot engine, play guitar, and explore the outdoors. Married and have two cats.
 
 experience:
   show: true
@@ -108,10 +100,10 @@ experience:
       role: Cloud Native Software Engineer
       location: Tbilisi, Georgia
       description: |
-        + Developed Kubernetes operators and controllers for PaaS (Product as a Service) products such as FaaS (Function as a Service) and KaaS (Kubernetes as a Service). Streamlined deployment and management of cloud services.
-        + Expanded the functionality of the company's Terraform provider by integrating new products, enabling automated provisioning and configuration of infrastructure resources.
-        + Led a project to create a tool that automates the generation of a Golang SDK from the company's OpenAPI specifications, significantly reducing development time and improving API integration efficiency.
-        + Designed and implemented a modern CLI for PaaS environments, incorporating features like server-side autocomplete and API key-based authentication using Golang and Cobra, enhancing developer productivity and user experience.
+        + Developed Kubernetes operators and controllers for PaaS products (FaaS, KaaS), enhancing the efficiency and reliability of cloud service deployments.
+        + Expanded the Terraform provider's functionality by integrating new products, which improved the automation and consistency of infrastructure provisioning and configuration.
+        + Led a project to develop a tool automating Golang SDK generation from OpenAPI specs, thereby accelerating development cycles and enhancing API integration processes.
+        + Designed and implemented a modern CLI for PaaS environments, with features like server-side autocomplete and API key-based authentication, significantly enhancing developer productivity and user experience.
         
         Tech stack: Go, Python, Kubernetes, Docker, Terraform, Gitlab CI, Grafana, Prometheus, Kong, Kubebuilder, oapi-codegen, cobra
     - company: VK.com (former Mail.ru Group)
@@ -121,9 +113,9 @@ experience:
       role: Software Engineer at Advertisement Tech Department
       location: Moscow, Russia
       description: |
-        + Developed high-load microservices (> 10000 RPS) using Golang to aggregate users data.
-        + Designed and implemented Grafana dashboards for visualizing system metrics, alongside configuring Prometheus alerts to ensure proactive monitoring and rapid response to potential issues within microservices.
-        + Contributed to the Tarantool Go library by reverse-engineering and incorporating a new version of the Tarantool protocol, which allowed the aggregation of data from the latest Tarantool releases and expanded the library's functionality.
+        + Developed high-load microservices (> 10,000 RPS) using Golang to aggregate user data, enhancing data processing efficiency.
+        + Designed and implemented Grafana dashboards and configured Prometheus alerts, improving system metrics visualization and ensuring proactive issue resolution within microservices.
+        + Contributed to the Tarantool Go library by reverse-engineering and incorporating a new protocol version, enabling data aggregation from the latest Tarantool releases and expanding the library’s functionality.
         
         Stack: Golang, Lua, C++, Protobuf, Kubernetes, Kafka, Prometheus, Grafana
     - company: Paragon Software
@@ -187,7 +179,7 @@ skill:
   #    level: 3
 
   groups:
-    - name: Languages
+    - name: Programming Languages
       item:
         - Go
         - Python
@@ -201,19 +193,21 @@ skill:
       item:
         - PostgreSQL
         - Redis
-    - name: Other
-      item:
-        - Kubernetes
+    - DevOps & Cloud:
+        - Kubernetes 
         - Docker
-        - Kong
+        - Terraform
+        - Gitlab CI
         - Grafana
         - Prometheus
-        - Gitlab CI 
-        - Terraform
+        - Kong
+    - APIs & Testing:
         - OpenAPI
-        - REST APIs
+        - REST APIs 
         - Unit-tests
-        - Linux
+    - name: Operating Systems
+      item:
+        - Ubuntu/Debian Linux
 education:
   show: true
   order: 5
